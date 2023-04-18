@@ -1,13 +1,31 @@
-# Sample Hardhat Project
+# Utility Contract project with hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### Install dependency
+```shell
+npm install
+```
 
-Try running some of the following tasks:
+### Compile contract
+```shell
+npx hardhat compile
+```
+
+### Run Local Test Network
+```shell
+npx hardhat node
+```
+
+### Deploy contract
+```shell
+npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deployToken.js
+``` 
+
+Note down the contract addresses and edit the test.js contract address and tokens accordingly.
+
+### Run test
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+cd test
+node test.js
+``` 

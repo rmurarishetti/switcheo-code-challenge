@@ -31,5 +31,5 @@ var sum_to_n_c = function(n) {
 };
 
 console.log(sum_to_n_a(440));
-console.log(sum_to_n_b(440));
-console.log(sum_to_n_c(440));
+console.log(sum_to_n_b(882));
+console.log(sum_to_n_c(882));

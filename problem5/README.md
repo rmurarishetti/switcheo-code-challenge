@@ -17,8 +17,8 @@ npx hardhat node
 
 ### Deploy contract
 ```shell
-npx hardhat run scripts/deploy.js
-npx hardhat run scripts/deployToken.js
+npx hardhat run --network localhost scripts/deploy.js
+npx hardhat run --network localhost scripts/deployToken.js
 ``` 
 
 Note down the contract addresses and edit the test.js contract address and tokens accordingly.
